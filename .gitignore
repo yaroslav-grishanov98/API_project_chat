@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / dll files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+venv/
+.venv/
+
+# IDE-specific files (e.g., PyCharm, VS Code)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+.env
+.flaskenv
+.vscode/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dependencies
+# Pip
+pip-wheel-metadata/
+.pip-modules/
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.sql
+
+# Docker
+*.pem
+*.key
+.dockerignore
+!docker-compose.yml # Не игнорируем сам docker-compose.yml
+!Dockerfile # Не игнорируем сам Dockerfile
+
+# Alembic
+alembic/versions/*.pyc
+alembic.bak/
